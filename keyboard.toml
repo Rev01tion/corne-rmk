@@ -12,10 +12,10 @@ cols = 12
 layers = 8
 keymap = [
     [
-        ["User0", "User1", "User2", "User3", "R", "T", "Y", "U", "I", "O", "P", "Backspace"],
+        ["User0", "q", "w", "e", "R", "T", "Y", "U", "I", "O", "P", "Backspace"],
         ["LCtrl", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote"],
         ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "Escape"],
-        [ "1", "2", "3","4", "5", "6", "7", "8", "9","0", "1", "2"]
+        [ "_", "_", "_","4", "5", "6", "7", "8", "9","_", "_", "_"]
     ],
 ]
 
@@ -43,7 +43,7 @@ col_offset = 0
 
 [split.central.matrix]
 row_pins = ["P0_22", "P0_24", "P1_00", "P0_11"]
-col_pins = ["P0_31", "P0_02", "P0_29","P1_15", "P1_13", "P1_11", ]
+col_pins = ["P0_31",  "P0_29","P0_02","P1_15", "P1_13", "P1_11", ]
 # RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
 # row2col = true
 
